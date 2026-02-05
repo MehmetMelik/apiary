@@ -106,4 +106,4 @@ jobs:
             apps/desktop/src-tauri/target/${{ matrix.target }}/release/bundle/appimage/*.AppImage
             apps/desktop/src-tauri/target/${{ matrix.target }}/release/bundle/msi/*.msi
             apps/desktop/src-tauri/target/${{ matrix.target }}/release/bundle/nsis/*.exe
-          draft: true
+          draft: false
