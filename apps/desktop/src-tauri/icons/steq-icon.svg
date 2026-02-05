@@ -9,8 +9,8 @@
   <!-- Hexagon -->
   <path d="M512 48 L916 280 L916 744 L512 976 L108 744 L108 280 Z" fill="url(#bg)"/>
 
-  <!-- API text -->
+  <!-- STEQ text -->
   <text x="512" y="535" text-anchor="middle" dominant-baseline="central"
         font-family="Menlo, Monaco, 'Courier New', Consolas, monospace"
-        font-size="340" font-weight="700" fill="#1C1917" letter-spacing="20">API</text>
+        font-size="260" font-weight="700" fill="#1C1917" letter-spacing="15">STEQ</text>
 </svg>
