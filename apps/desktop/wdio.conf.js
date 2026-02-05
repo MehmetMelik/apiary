@@ -23,7 +23,7 @@ export const config = {
       'tauri:options': {
         application: resolve(
           __dirname,
-          'src-tauri/target/debug/apiary-desktop',
+          'src-tauri/target/debug/reqtor-desktop',
         ),
       },
     },
