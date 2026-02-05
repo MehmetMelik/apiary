@@ -42,9 +42,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: Install WebdriverIO (npm)
-        working-directory: apps/desktop
-        run: npm install --no-save @wdio/cli @wdio/local-runner @wdio/mocha-framework @wdio/spec-reporter
+      - name: Install WebdriverIO (npm global)
+        run: npm install -g @wdio/cli @wdio/local-runner @wdio/mocha-framework @wdio/spec-reporter
 
       - name: Build packages
         run: |
