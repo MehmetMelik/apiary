@@ -38,7 +38,9 @@
     "longDescription": "Steq is a desktop API development environment for building, testing, and documenting HTTP APIs. Features include collections, environments with encrypted secrets, request history, and Postman import/export.",
     "copyright": "Copyright 2025 Steq Team",
     "macOS": {
-      "minimumSystemVersion": "10.15"
+      "minimumSystemVersion": "10.15",
+      "entitlements": "entitlements.plist",
+      "signingIdentity": "-"
     },
     "windows": {
       "webviewInstallMode": {
